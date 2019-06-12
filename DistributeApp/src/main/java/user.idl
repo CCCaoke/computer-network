@@ -1,0 +1,9 @@
+module UserModule{
+    interface User{
+        boolean add(in string startTime,in string note);
+        string query(in string startTime);
+        boolean delete(in string key);
+        boolean clear();
+        string show();
+    };
+};
